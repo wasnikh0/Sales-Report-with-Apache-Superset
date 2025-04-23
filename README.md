@@ -1,6 +1,6 @@
 ## Reporting with Apache Superset
 
-![World Population](./assets/report-screenshot-tpc-h.jpeg)
+![World Population](./salesdashboard.png)
 
 
 We will be building above report in apache superset.
@@ -14,16 +14,13 @@ To build this report we are using PostgreSQL database. All the data used is gene
 To develope report we need data model as superset does not support modeling like many reporting tools supports. Hence we will be creating a flat view on top of this model. 
 
 
-![Data Model](./assets/tpc-data-model.jpeg)
+![Data Model](./Data_model.png)
 
-### Dashboard Exports
-[Sales Dashboard Export (Zip)](./exports/Sales%20Dashboard%20Export.zip)
-[Sales Dashboard Export (Unzipped)](./exports/Sales%20Dashboard%20Export/)
 
 ### Dataset files (1 GB Ready to be downloaded)
 [Kaggle TPC-H 1GN](https://www.kaggle.com/datasets/fven7u/tpch-1gb) 
 
-credit: FrancescoVentura (Owner) [License Unknown] 
+credit: FrancescoVentura (Owner) [License Unknown] Project reference: Shantanu Khond
 
 ### PostgreSQL 
 ```
